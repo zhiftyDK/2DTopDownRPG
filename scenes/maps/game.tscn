@@ -35,9 +35,9 @@
 [ext_resource type="Texture2D" uid="uid://debn1app7cer7" path="res://assets/Tiles/Grass/Grass_Tiles_4.png" id="33_ocmbt"]
 [ext_resource type="PackedScene" uid="uid://dcr5aeisp27cv" path="res://scenes/player.tscn" id="34_ecy4l"]
 [ext_resource type="Texture2D" uid="uid://c18khvxvaoppr" path="res://assets/Outdoor decoration/Outdoor_Decor_Animations/Other_Animations/Campfire_Anim.png" id="35_h737b"]
-[ext_resource type="PackedScene" uid="uid://bqj05ls0xsr13" path="res://scenes/enemies/skeleton.tscn" id="35_rrvqp"]
+[ext_resource type="PackedScene" uid="uid://bnhb8dpre2fkr" path="res://scenes/enemies/swordskeleton.tscn" id="35_rrvqp"]
 [ext_resource type="Texture2D" uid="uid://dsyq6l0uerqrd" path="res://assets/Trees/Oak_Tree_Small.png" id="36_vr8al"]
-[ext_resource type="PackedScene" uid="uid://dimj55i3qeel0" path="res://scenes/placables/BasicChest.tscn" id="37_pc8u7"]
+[ext_resource type="PackedScene" uid="uid://dimj55i3qeel0" path="res://scenes/placables/basicchest.tscn" id="37_pc8u7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e1j6l"]
 texture = ExtResource("1_0kmm7")

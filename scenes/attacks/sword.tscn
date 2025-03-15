@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3m2xwbpsp0cl"]
+
+[ext_resource type="Script" uid="uid://bjbar58v3l5gu" path="res://scripts/attacks/sword.gd" id="1_oq635"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qejeg"]
+radius = 7.0
+
+[node name="Sword" type="Area2D" groups=["attacks"]]
+script = ExtResource("1_oq635")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_qejeg")
